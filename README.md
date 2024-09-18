@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project focuses on analyzing time series data, employing various statistical and machine learning methods for forecasting. It is part of a group assignment aimed at understanding and applying techniques commonly used in time series analysis.
+This project focuses on analyzing time series data, employing various statistical and machine learning methods for forecasting. Focuses on understanding and applying techniques commonly used in time series analysis.
 
 The notebook demonstrates the following:
 - Data preparation for time series analysis.
