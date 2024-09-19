@@ -1,14 +1,13 @@
 
 # Time Series Analysis
 
-## Overview
+## Objective
 
-This project focuses on analyzing time series data, employing various statistical and machine learning methods for forecasting. Focuses on understanding and applying techniques commonly used in time series analysis.
+The objective  is to gain hands-on experience in applying various time series forecasting models. You will use the S&P 500 Closed price data to experiment with different models, evaluate their performance, and justify their use in financial engineering.
 
-The notebook demonstrates the following:
-- Data preparation for time series analysis.
-- Visualization of time-based patterns and trends.
-- Application of forecasting models.
+##Dataset
+
+You will use the historical S&P 500 Closed price data. The dataset should include daily closing prices over several years to capture trends, seasonality, and other patterns.
 
 ## Key Techniques
 
@@ -21,28 +20,6 @@ The project utilizes several key techniques for time series analysis:
 - **Seasonal Decomposition of Time Series (STL)**: Decomposes time series data into seasonal and trend components using LOESS.
 - **Machine Learning Models**: Implementing models like Random Forests, XGBoost, or other regressors to predict future values.
 - **Model Evaluation**: Performance evaluation using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and others.
-
-## Setup Instructions
-
-To run the project, ensure you have Python 3.x installed along with the following libraries:
-
-1. **Install dependencies**:
-
-    ```bash
-    pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
-    ```
-
-2. **Run the Jupyter Notebook**:
-
-    - Open your terminal and navigate to the project folder.
-    - Run the following command to launch the notebook:
-      ```bash
-      jupyter notebook TimeSeriesAnalysis.ipynb
-      ```
-
-3. **Prepare the Dataset**:
-
-    - Ensure you have a time series dataset in a format such as CSV. Modify the data loading section to reflect the location of your dataset.
 
 ## Important Notes
 
